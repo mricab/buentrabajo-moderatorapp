@@ -1,0 +1,12 @@
+.grad {
+    background-image: linear-gradient(to top right, #f75555, #60E7FF);
+    height: 100vh;
+  }
+
+.center-wrapper {
+    align-items: center; justify-content: center; display:flex
+}
+
+.special-form-label {
+    color:aliceblue;
+}
