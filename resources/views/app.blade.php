@@ -22,18 +22,8 @@
         <!--Navbar-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
-                <a class="navbar-brand" href="/" style="font-family: Sansita Swashed; font-size: 28">
+                <div class="center-wrapper w-100">
                     <img src="/imgs/logo.png" width="30" height="30" alt="">
-                    Buen Trabajo
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarMenu" style="align-items: right">
-                    <div class="navbar-nav" style="font-size: 1.35em">
-                        <a class="nav-item nav-link" href="/"><i class="ri-group-line"></i> Solicitudes</span></a>
-                        <a class="nav-item nav-link" href="/"><i class="ri-tools-fill"></i> Balance</a>
-                    </div>
                 </div>
             </div>
         </nav>

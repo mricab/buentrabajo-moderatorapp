@@ -18,3 +18,4 @@ Route::get('/', function () {
 });
 
 Route::post('/login', 'AuthenticationController@login');
+Route::get('/requests/index', 'RequestsController@index');
