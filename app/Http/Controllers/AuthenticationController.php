@@ -35,7 +35,7 @@ class AuthenticationController extends Controller
         // Return
         if($contents['success']) {
             session(['token' => $contents['token']]);
-            return redirect('/requests/index');
+            return redirect('/requests/start');
         } else {
             return redirect()->back()->withInput()->with('message', 'Usuario inválido.');
         }

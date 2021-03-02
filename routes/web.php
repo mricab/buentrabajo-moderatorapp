@@ -18,4 +18,8 @@ Route::get('/', function () {
 });
 
 Route::post('/login', 'AuthenticationController@login');
+Route::get('/requests/start', 'RequestsController@start');
 Route::get('/requests/index', 'RequestsController@index');
+Route::post('/requests/index', 'RequestsController@index');
+Route::post('/requests/accept', 'RequestsController@accept');
+Route::post('/requests/reject', 'RequestsController@reject');
