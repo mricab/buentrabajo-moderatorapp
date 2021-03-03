@@ -96,7 +96,7 @@ class RequestsController extends Controller
             $pages = $contents['pages'];
             return view('requests.index', compact('suppliers', 'supplies', 'schedules', 'cities', 'services', 'types', 'dates_range', 'currentPage', 'pages'));
         } else {
-            //return $response;
+            return $response;
             return "Index: Error";
         }
     }

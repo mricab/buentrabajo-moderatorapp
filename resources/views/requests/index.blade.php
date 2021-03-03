@@ -82,7 +82,7 @@
                     <tr>
                         <th>Fecha de Solicitud</th>
                         <th>Nombre</th>
-                        <th>Profesion</th>
+                        <th>Ciudad</th>
                         <th>Estado</th>
                         <th></th>
                     </tr>
@@ -92,7 +92,7 @@
                     <tr>
                         <td>{{$supplier['request_date']}}</td>
                         <td>{{$supplier['name'].' '.$supplier['first_last_name']}}</td>
-                        <td>{{$supplier['profession']}}</td>
+                        <td>{{$cities[$supplier['city_id']-1]['name']}}</td>
                         @if ($supplier['request_state']=='Pendiente')
                         <td>
                             <form method="POST" action="/requests/accept" class="d-inline-block">

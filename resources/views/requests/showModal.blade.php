@@ -62,9 +62,9 @@
                     <div class="col-12">
                         <h5>Datos Profesionales</h5>
                         <div class="form-group row">
-                            <label class="col-sm-3 col-form-label text-right font-weight-bold">Profession</label>
+                            <label class="col-sm-3 col-form-label text-right font-weight-bold">Profesión</label>
                             <div class="col-sm-9 input-group-append">
-                                <input name="" type=text value="{{$supplier['profession']}}" class="form-control-plaintext" readonly>
+                                <input name="" type=text value="{{implode(', ',$supplier['professions'])}}" class="form-control-plaintext" readonly>
                             </div>
                         </div>
                         <div class="form-group row">
